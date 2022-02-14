@@ -25,12 +25,11 @@ class MyArray:
         del self.items[-1]
         self.length-=1
 
-    # Add a function to delete an element t a specific index in the array    
+    # Add a function to delete an element at a specific index in the array    
 
     def deleteatIndex(self,index):
         del self.items[index]
         self.length-=1
-        #self.unshift(index)
         return self.items
 
     
